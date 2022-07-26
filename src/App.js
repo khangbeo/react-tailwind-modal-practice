@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div>
       {isOpen && <Modal setIsOpen={setIsOpen} />}
-      <h1 className=''>Hello StackBlitz!</h1>
+      <h1 className='text-2xl'>Hello StackBlitz!</h1>
       <button onClick={() => setIsOpen(true)} className='m-5 px-6 py-3 bg-blue-600 rounded text-white text-lg rounded-lg hover:bg-blue-800'>Hi There</button>
       <p>Start editing to see some magic happen :)</p>
     </div>
